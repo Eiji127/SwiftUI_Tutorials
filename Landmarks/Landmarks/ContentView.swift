@@ -7,13 +7,20 @@
 
 import SwiftUI
 
+/*
+ ・Viewプロトコルに準拠している。
+ ・ビューのコンテンツとレイアウトを記述する。
+ */
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("Hello, SwiftUI!")
             .padding()
     }
 }
 
+/*
+ ビューのプレビューを宣言している
+ */
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
