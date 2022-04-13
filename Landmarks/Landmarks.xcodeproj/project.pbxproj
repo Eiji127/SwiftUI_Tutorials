@@ -15,6 +15,7 @@
 		98CAEC6228017EA300704984 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 98CAEC5528017EA300704984 /* landmarkData.json */; };
 		98CAEC6428017EC400704984 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CAEC6328017EC400704984 /* Landmark.swift */; };
 		98CAEC662801822500704984 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CAEC652801822500704984 /* ModelData.swift */; };
+		98CAEC6B2806668C00704984 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CAEC6A2806668C00704984 /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		98CAEC5528017EA300704984 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		98CAEC6328017EC400704984 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		98CAEC652801822500704984 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		98CAEC6A2806668C00704984 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				98CAEC682802C86500704984 /* Model */,
 				98CAEC672802C86000704984 /* Views */,
 				98AA289527FB3C1E001C894E /* LandmarksApp.swift */,
+				98CAEC6A2806668C00704984 /* LandmarkRow.swift */,
 				98AA289927FB3C22001C894E /* Assets.xcassets */,
 			);
 			path = Landmarks;
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CAEC6B2806668C00704984 /* LandmarkRow.swift in Sources */,
 				98AA289827FB3C1E001C894E /* ContentView.swift in Sources */,
 				98CAEC45280174E100704984 /* MapView.swift in Sources */,
 				98AA289627FB3C1E001C894E /* LandmarksApp.swift in Sources */,
