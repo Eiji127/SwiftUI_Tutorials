@@ -6,9 +6,12 @@
 //
 
 import Foundation
+import Combine
 
-
-var landmarks: [Landmark] = load("landmarkData.json")
+final class ModelData: ObservableObject {
+    // @Published: ObservableObjectプロトコルに準拠したクラス内のプロパティを監視し、変化があった際にViewに対して通知を行う
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
